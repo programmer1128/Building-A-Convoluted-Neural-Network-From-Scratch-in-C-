@@ -12,5 +12,5 @@ class Max_Pooling
 
      public :
       
-     std::vector<std::vector<double>> set_map(std::vector<std::vector<double>> map);
+     std::vector<std::vector<double>> set_map(std::vector<std::vector<double>> map,int window_size);
 };
